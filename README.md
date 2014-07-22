@@ -1,4 +1,5 @@
 PyChat
 ======
 
-Python Based Server-Client Chat Relay
+Python Based Server-Client Relay Chat
+
