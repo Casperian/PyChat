@@ -1,0 +1,29 @@
+Version 0.5
+- Client chat codes implemented
+- Client port selection implemented
+- Client release now closes port but still causes a client side hang
+- Server Cleans itself when a client dies or becomes unreachable
+- Server now works for over 1 client
+- Server has a MOTD now
+- Basic logging function implemented
+
+Version 0.6
+- Client Stability improved
+- Server logging is working correctly and is less intrusive (No more cmd windows)
+- Added a random suffix to the client to stop name clashs. Still possible but 1/10000 chance.
+- Server code reduced. Removed unused code
+
+Version 0.7
+- Stability reduced
+- Both Client and Server now raise all exceptions.
+- Attempting to reduce bugs
+
+Version 0.8
+- Issues caused in client by the select module fixed
+- Release button now releases socket but reconnection requires a restart.
+
+Version 0.9
+- Server stability reimproved
+- Client stability dramatically improved
+- Messages are now time stamped
+- Release button will now become and exit button and a main launcher will need to be made
